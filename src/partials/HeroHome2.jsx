@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
 
-import HeroImage from '../images/impacto.jpeg';
+import Purpose from '../images/purpose.png';
 
 function HeroHome() {
 
@@ -12,19 +12,7 @@ function HeroHome() {
 
       {/* Illustration behind hero content */}
       <div className="absolute bottom-0 transform -translate-x-1/2 pointer-events-none left-1/2" aria-hidden="true">
-        <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-01">
-              <stop stopColor="#FFF" offset="0%" />
-              <stop stopColor="#EAEAEA" offset="77.402%" />
-              <stop stopColor="#DFDFDF" offset="100%" />
-            </linearGradient>
-          </defs>
-          <g fill="url(#illustration-01)" fillRule="evenodd">
-            <circle cx="1232" cy="128" r="128" />
-            <circle cx="155" cy="443" r="64" />
-          </g>
-        </svg>
+        
       </div>
 
       <div className="max-w-6xl px-4 mx-auto sm:px-6">
@@ -34,9 +22,9 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
-            <h1 className="mb-4 text-5xl font-extrabold tracking-tighter md:text-[64px] leading-tighter" data-aos="zoom-y-out">Transforme o impacto social em <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-teal-400">impacto nos negócios</span></h1>
+            <h1 className="mb-4 text-5xl font-extrabold tracking-tighter md:text-[48px] leading-tighter" data-aos="zoom-y-out">Seu propósito corporativo em uma plataforma</h1>
             <div className="max-w-3xl mx-auto">
-              <p className="mb-8 text-xl text-gray-600" data-aos="zoom-y-out" data-aos-delay="150">Construa uma cultura de impacto. Fortaleça seus indicadores ESG. Tenha uma marca em que as pessoas confiam. Com nosso software de propósito corporativo faça tudo isso de maneira simples, eficiente e encantadora.</p>
+              <p className="mb-8 text-xl text-gray-600" data-aos="zoom-y-out" data-aos-delay="150">A única solução de software completa que beneficia a todos. Funcionários. Clientes. Organizações sem fins lucrativos. Sociedade. E o seu negócio.</p>
               {/* <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="w-full mb-4 text-white bg-blue-600 btn hover:bg-blue-700 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
@@ -52,7 +40,7 @@ function HeroHome() {
           <div>
             <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="flex flex-col justify-center">
-                <img className="mx-auto" src={HeroImage} width="768" height="432" alt="Hero" />
+                <img className="mx-auto" src={Purpose} width="768" height="432" alt="Hero" />
               </div>
               {/* <button className="absolute flex items-center p-4 font-medium transform -translate-y-1/2 bg-white rounded-full shadow-lg top-full group" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} aria-controls="modal">
                 <svg className="flex-shrink-0 w-6 h-6 text-gray-400 fill-current group-hover:text-blue-600" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

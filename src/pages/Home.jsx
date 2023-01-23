@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
+import HeroHome2 from '../partials/HeroHome2';
 import FeaturesHome from '../partials/Features';
 import FeaturesBlocks from '../partials/FeaturesBlocks';
 import Testimonials from '../partials/Testimonials';
@@ -21,14 +22,15 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <FeaturesHome />
+        <HeroHome2 />
         <FeaturesBlocks />
-        <Testimonials />
         <Newsletter />
+
+        <Testimonials />
 
       </main>
 
-      <Banner />
+      {/* <Banner /> */}
 
       {/*  Site footer */}
       <Footer />
