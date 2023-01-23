@@ -6,6 +6,7 @@ specifiers:
   aos: ^3.0.0-beta.6
   autoprefixer: ^10.4.7
   postcss: ^8.4.14
+  prop-types: ^15.8.1
   react: ^18.2.0
   react-dom: ^18.2.0
   react-flatpickr: ^3.10.13
@@ -19,6 +20,7 @@ specifiers:
 dependencies:
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.2.4
   aos: 3.0.0-beta.6
+  prop-types: 15.8.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-flatpickr: 3.10.13_react@18.2.0
